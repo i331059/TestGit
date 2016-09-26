@@ -15,7 +15,7 @@ public class HelloWorldServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
 	
-/* minor comment change */
+/* minor comment change again */
     public HelloWorldServlet() {
         super();
         // TODO Auto-generated constructor stub
