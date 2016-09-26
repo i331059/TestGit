@@ -14,8 +14,6 @@ import javax.servlet.http.HttpServletResponse;
 public class HelloWorldServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-	
-/* minor comment change again */
     public HelloWorldServlet() {
         super();
         // TODO Auto-generated constructor stub
@@ -24,8 +22,7 @@ public class HelloWorldServlet extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-/* print hello world comment */		
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {		
 		response.getWriter().println("HelloWorld!!");
 	}
 
